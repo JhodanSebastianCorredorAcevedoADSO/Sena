@@ -12,25 +12,30 @@
 </head>
 
 <body>
-<!--     <div class="container-fluid text-center"> -->
+
+<!--     <div class="container-fluid text-center"> -->  
     <div class="d-flex justify-content-center">
         <div class="row d-flex align-items-center justify-content-center" style="min-height: 100vh">
             <div class="col-fluid border p-3 bg-segundary">
                 
-                <img class="img" src="img/Logo-de-SENA.png" alt="Logo Sena">
+                <img class="img p-3" src="https://www.sena.edu.co/Style%20Library/alayout/images/logoSena.png" alt="Logo Sena">
                 
+                <p class="text-center ">REGISTRO CONTROL DE ASISTENCIA</p>
+
                 <div class="col p-3 text-center">
-                    <p class="text-center">Codigo de Programa</p>
-                    <input class="form-control" type="number" id="Programa" required>
+                    <input class="form-control" type="number" name="Programa" placeholder="Codigo de Programa" required>
                 </div>
                 
                 <div class="col p-3 text-center">
-                    <p class="text-center">Codigo de ficha</p>
-                    <input class="form-control" type="number" id="Ficha" required>
+                    <input class="form-control" type="number" name="Ficha" placeholder="Codigo de Ficha" required>
+                </div>
+
+                <div class="col p-3 text-center">
+                    <input class="form-control" type="password" onkeypress="validar(event)" id="contraseña" placeholder="Contraseña" required>
                 </div>
                 
                 <div class="col text-center">
-                    <button type="button" class="btn m-3">Enviar</button>
+                    <onclik type="button" class="m-3">Enviar</onclik>
                 </div>
 
                <!--  contraseña de ingreso al login para mayor seguridad y una base de datos en donde la contraseña sea para 
