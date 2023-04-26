@@ -2,24 +2,12 @@ body {
     font-family: Raleway-Bold;
 }
 
-input {
-    text-align: center;
-    border-radius: 5px;
-    border: 2px solid #000000;
-}
-
 .m-3 {
-    color: rgb(255, 255, 255);
     background-color: #000000;
-    font-size: 26px;
-    padding-right: 85px;
-    padding-left: 85px;
-    height: 38px;
-    text-transform: uppercase;
+    font-size: 25px;
     border-radius: 3px;
     background: #5cb85c;
-    justify-content: center;
-    align-items: center;
+    padding: 0.5px 110px;
 }
 
 .img {
@@ -27,10 +15,6 @@ input {
     height: 300px;
 }
 
-.form-control{
-    color: #000000;
-}
-
-.placeholder{
-    color: #000000;
+.btn{
+    margin-left: 3px;
 }

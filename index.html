@@ -13,39 +13,54 @@
 
 <body>
 
-<!--     <div class="container-fluid text-center"> -->  
+    <!--     <div class="container-fluid text-center"> -->
     <div class="d-flex justify-content-center">
         <div class="row d-flex align-items-center justify-content-center" style="min-height: 100vh">
-            <div class="col-fluid border p-3 bg-segundary">
-                
-                <img class="img p-3" src="https://www.sena.edu.co/Style%20Library/alayout/images/logoSena.png" alt="Logo Sena">
-                
-                <p class="text-center ">REGISTRO CONTROL DE ASISTENCIA</p>
 
-                <div class="col p-3 text-center">
-                    <input class="form-control" type="number" name="Programa" placeholder="Codigo de Programa" required>
-                </div>
-                
-                <div class="col p-3 text-center">
-                    <input class="form-control" type="number" name="Ficha" placeholder="Codigo de Ficha" required>
+            <div class="col-fluid border">
+
+                <div class="text-center">
+                    <img class="img p-5" src="https://www.sena.edu.co/Style%20Library/alayout/images/logoSena.png"
+                        alt="Logo Sena">
                 </div>
 
+                <p class="text-center" style="font-size: 15.5px;">REGISTRO CONTROL DE ASISTENCIA</p>
+
                 <div class="col p-3 text-center">
-                    <input class="form-control" type="password" onkeypress="validar(event)" id="contraseña" placeholder="Contraseña" required>
+                    <input class="form-control text-center" type="number" name="Programa"
+                        placeholder="Codigo de Programa" required>
                 </div>
-                
+
+                <div class="col p-3 text-center">
+                    <input class="form-control text-center" type="number" name="Ficha" placeholder="Codigo de Ficha"
+                        required>
+                </div>
+
+                <div class="col p-3 text-center">
+                    <input class="form-control text-center" type="password" id="contraseña" placeholder="Contraseña"
+                        required>
+                </div>
+
+                <div>
+                    <a href="#" class="btn btn-link" style="font-size: 12px;">Olvidaste tu contraseña</a>
+                </div>
+
                 <div class="col text-center">
-                    <onclik type="button" class="m-3">Enviar</onclik>
+                    <button type="button" class="btn btn-success m-3 btn-lg btn-block"
+                        style="border: none; background-color: #49a34b; color: #000000;"
+                        onmouseover="this.style.backgroundColor='#000000';this.style.color='#ffffff';"
+                        onmouseout="this.style.backgroundColor='#49a34b';this.style.color='#000000';">Enviar</button>
                 </div>
 
-               <!--  contraseña de ingreso al login para mayor seguridad y una base de datos en donde la contraseña sea para 
-                cada instructor y la clave sea su cedula y de reporte de quien fue que ingreso al control de asistencia. -->
-
+                <!--  contraseña de ingreso al login para mayor seguridad y una base de datos en donde la contraseña sea para 
+                    cada instructor y la clave sea su cedula y de reporte de quien fue que ingreso al control de asistencia. -->
 
             </div>
         </div>
     </div>
-    
+
+
+
 </body>
 
 </html>
