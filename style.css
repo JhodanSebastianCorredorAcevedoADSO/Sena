@@ -15,6 +15,13 @@ body {
     height: 300px;
 }
 
+.form-control{
+    background: #e6e6e6;
+}
+
 .btn{
-    margin-left: 3px;
+    margin-left: 175px;
+}
+.form-control:focus {
+    border-color: #000000;
 }
